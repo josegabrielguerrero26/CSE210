@@ -57,8 +57,8 @@ class Director:
         max_y = self._video_service.get_height()
         robot.move_next(max_x, max_y) 
         
-        # This for loop was added to move artifacts and check to see if robot hits aritfacts
-        # And also increments and displays score.
+        #cheking point for artifacts and adding points to the score
+        
         for artifact in artifacts:
             artifact.move_next(max_x, max_y) # Added to enable to artifacts to move down screen.
             if robot.get_position().equals(artifact.get_position()):

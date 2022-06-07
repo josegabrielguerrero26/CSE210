@@ -12,7 +12,7 @@ class Artifact(Actor):
         """constructor"""
         super().__init__()
         self._type = random.choice([True, False])
-        self._text = "*" if self._type == True else "0"
+        self._text = "*" if self._type == True else "O"
         self._velocity = Point(0, 3)
     
     def get_type(self):
