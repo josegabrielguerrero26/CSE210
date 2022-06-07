@@ -41,7 +41,7 @@ def main():
     
     # create the robot
     x = int(MAX_X / 2)
-    y = int(MAX_Y - 45) # Move robot starting position up from the bottom of the screen.
+    y = int(MAX_Y - 40) # Move robot starting position up from the bottom of the screen.
     position = Point(x, y)
 
     robot = Actor()
