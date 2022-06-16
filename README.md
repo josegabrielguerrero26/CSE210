@@ -20,7 +20,7 @@ The project files and folders are organized as follows:
 ```
 root                    (project root folder)          
   +-- game              (specific game classes)
-     +--castng         
+     +--casting         
      +--directing
      +--scripting
      +-- services
