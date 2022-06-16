@@ -1,6 +1,5 @@
-# Snake
-Snake is a clone of the classic game that we all used to play on our cellphones. You play this game 
-on a simulated terminal, with a textual interface.
+# Cycle
+Cycle is a game where the players try to cut each other off using cycles that leave a trail behind them.
 
 ## Getting Started
 ---
@@ -19,10 +18,15 @@ project folder. Select the main module inside the hunter folder and click the "r
 ---
 The project files and folders are organized as follows:
 ```
-root                    (project root folder)
-+-- snake               (source code for game)
+root                    (project root folder)          
   +-- game              (specific game classes)
+     +--castng         
+     +--directing
+     +--scripting
+     +-- services
+     +-- shared
   +-- __main__.py       (entry point for program)
+  + -- constants.py     (constant in the system)
 +-- README.md           (general info)
 ```
 
@@ -33,4 +37,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+*Gabriel Guerrero -- gguerrero@gmail.com
