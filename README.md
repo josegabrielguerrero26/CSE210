@@ -1,5 +1,5 @@
-# Cycle
-Cycle is a game where the players try to cut each other off using cycles that leave a trail behind them.
+# Batter
+Batter is a clone of the classic breakout game.
 
 ## Getting Started
 ---
@@ -9,7 +9,7 @@ python3 -m pip install raylib
 ```
 After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
 
-python3 snake 
+python3 batter 
 ```
 You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
 project folder. Select the main module inside the hunter folder and click the "run" icon.
@@ -18,15 +18,15 @@ project folder. Select the main module inside the hunter folder and click the "r
 ---
 The project files and folders are organized as follows:
 ```
-root                    (project root folder)          
+root                    (project root folder)
++-- batter              (source code for game)
   +-- game              (specific game classes)
-     +--casting         
-     +--directing
-     +--scripting
-     +-- services
-     +-- shared
+    +-- casting         (various actor classes)
+    +-- directing       (director and scene manager classes)
+    +-- scripting       (various action classes)
+    +-- services        (various service classes)
   +-- __main__.py       (entry point for program)
-  + -- constants.py     (constant in the system)
+  +-- constants.py      (game constants)
 +-- README.md           (general info)
 ```
 
@@ -37,4 +37,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-*Gabriel Guerrero -- gguerrero@gmail.com
+* Matt Manley (manleym@byui.edu)
