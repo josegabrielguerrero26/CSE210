@@ -1,5 +1,6 @@
-# Batter
-Batter is a clone of the classic breakout game.
+# Tennis
+Tennis is a table game with two players. Player 1 starts the game by sending the object (ball) to the second player. Player 2 has to send the call back to the first player.
+Both player move the pabble up or down to hit the ball. Player gets a point when the other player doesn´t hit the ball. 
 
 ## Getting Started
 ---
@@ -9,12 +10,12 @@ python3 -m pip install raylib
 ```
 After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
 
-python3 batter 
-```
+## python3 Tennis 
+---
 You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
 project folder. Select the main module inside the hunter folder and click the "run" icon.
 
-## Project Structure
+##  Project Structure
 ---
 The project files and folders are organized as follows:
 ```
@@ -37,4 +38,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* Matt Manley (manleym@byui.edu)
+* Gabriel Guerrero gabrielguerrero26@gmail.com
