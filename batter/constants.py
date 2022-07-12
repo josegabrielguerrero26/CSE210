@@ -6,7 +6,7 @@ from game.casting.color import Color
 # -------------------------------------------------------------------------------------------------- 
 
 # GAME
-GAME_NAME = "Pong"
+GAME_NAME = "TENNIS"
 FRAME_RATE = 60
 
 # SCREEN
@@ -64,7 +64,6 @@ IN_PLAY = 3
 GAME_OVER = 4
 
 # LEVELS
-# LEVEL_FILE = "../Pong/assets/data/level-{:03}.txt"
 # BASE_LEVELS = 5
 
 # -------------------------------------------------------------------------------------------------- 
